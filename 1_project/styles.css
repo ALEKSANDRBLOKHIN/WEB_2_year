@@ -1,0 +1,41 @@
+.top-bar {
+    background-color: #666;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 90px;
+}
+
+.menu {
+    position: relative;
+    width: 1000px;
+    height: 90px;
+    margin: 0 auto;
+}
+
+.menu img {
+    width: 1000px;
+    height: 90px;
+    display: block;
+}
+
+/* Стили для кнопок */
+.menu a {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.menu a:nth-child(3) {
+    left: 120px;
+}
+
+.menu a:nth-child(4) {
+    left: 230px;
+}
